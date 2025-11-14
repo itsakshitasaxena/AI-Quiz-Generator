@@ -6,14 +6,12 @@ Features a loading screen with random facts to give the user something to do whi
 
 [View Live App](https://ai-quiz-generator-next.vercel.app/)
 
-![home page](./docs/images/home-page.jpg)
-
 ## Features
 - Customisable language, topic, difficulty, and number of questions
 - Loading screen that displays the live response stream and random webdev/programming facts (gives you something to do as it can take around 20-30 seconds for the quiz to generate)
 - Multiple choice Ed-style quiz with explanations and a progress bar
 - End screen with gifs, sarcastic messages, and confetti (>= 80%) that adapt to your quiz score
-- 14 track kahoot-flavored audio player (this is the real highlight, the quiz is just something to do while you're groovin :grin:)
+- 14 track kahoot-flavored audio player (this is the real highlight, the quiz is just something to do while you're groovin)
 
 ## Tech Used
 
@@ -41,13 +39,3 @@ A custom prompt is created by interpolating user entered form data. Crucially, t
 ![prompt](./docs/images/prompt.jpg)
 
 The API is queried. After playing with the available parameters, I found leaving most of them at their default setting worked well.
-
-![api request](./docs/images/api-request.jpg)
-
-## Screenshots
-
-![loading screen](./docs/images/loading-screen.jpg)
-
-![quiz screen](./docs/images/quiz-screen.jpg)
-
-![end-screen](./docs/images/end-screen.jpg)
